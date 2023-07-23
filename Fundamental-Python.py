@@ -41,5 +41,3 @@ while jumlah_buku_yang_sudah_dibaca < jumlah_buku:
 
 print(f'buku ke {jumlah_buku_yang_sudah_dibaca} sudah dibaca')
 print(f'Jumlah buku yang sudah di baca {jumlah_buku_yang_sudah_dibaca}')
-
-print('baru')
