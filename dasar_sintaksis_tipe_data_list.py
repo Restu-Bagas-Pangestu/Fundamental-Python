@@ -44,3 +44,14 @@ for i in range(0, len(daftar_buku)):
 print('\nbuku yang diambil tadi')
 print(buku)
 
+print('\npop -1')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+daftar_buku.pop(-2)
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\npop -1')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+daftar_buku.pop(-2)
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
