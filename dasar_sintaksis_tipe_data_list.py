@@ -55,3 +55,33 @@ daftar_buku = ['seven habits','How to influence people', 'first things first','4
 daftar_buku.pop(-2)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+print('\nperintah del')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+del daftar_buku[0]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nperintah del dengan list comprehension')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+del daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nperintah del dengan list comprehension start dan end')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+del daftar_buku[0:3]#start:end
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nperintah del dengan list comprehension start dan end')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+del daftar_buku[0:-2]#start:end
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nperintah del dengan list comprehension start dan end')
+daftar_buku = ['seven habits','How to influence people', 'first things first','4DX']
+del daftar_buku[0::2]#start:end
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
