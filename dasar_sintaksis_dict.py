@@ -31,4 +31,4 @@ print(result)
 print(type(result))
 
 with open('result.json','w') as file:
-    json.dump(users,file)
+    json.dump(users,file1)
